@@ -179,8 +179,11 @@ def collect():
 
 def main():
     out_dir = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).parent / "out"
-    # esm.sh caches a served file for a year, so never rewrite this hour's file.
-    path = out_dir / f"news-{datetime.now(BANGKOK):%Y-%m-%d-%H}.json"
+    # esm.sh caches a served file for a year, so never rewrite a file: each 15-minute slot gets its own.
+    start = datetime.now(BANGKOK)
+    slot = start.replace(minute=start.minute - start.minute % 15)
+    path = out_dir / f"news-{slot:%Y-%m-%d-%H-%M}.json"
+    hour_path = out_dir / f"news-{start:%Y-%m-%d-%H}.json"  # older shared links read hourly files
     if path.exists():
         print(f"{path} already exists, nothing to do.")
         return 0
@@ -193,7 +196,10 @@ def main():
     now = datetime.now(BANGKOK)
     out_dir.mkdir(parents=True, exist_ok=True)
     feed ={"updated": now.isoformat(timespec="minutes"), "errors": errors, "items": items}
-    path.write_text(json.dumps(feed, ensure_ascii=False, indent=1), encoding="utf-8")
+    text = json.dumps(feed, ensure_ascii=False, indent=1)
+    path.write_text(text, encoding="utf-8")
+    if not hour_path.exists():
+        hour_path.write_text(text, encoding="utf-8")
     print(f"{len(items)} items, {len(errors)} failed sources, wrote {path}")
     return 0
 
