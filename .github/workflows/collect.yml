@@ -2,7 +2,7 @@ name: Collect news
 
 on:
   schedule:
-    - cron: "5 * * * *"
+    - cron: "5,35 * * * *"  # the second run fills in when GitHub skips the first
   workflow_dispatch:
 
 permissions:
