@@ -18,6 +18,7 @@ BANGKOK = timezone(timedelta(hours=7))
 USER_AGENT = "TamClipNewsCollector/0.1"
 MAX_ITEMS = 40
 SUMMARY_CHARS = 600
+ALERT_URL = "https://www.tmd.go.th/uploads/CAP/"
 
 # url, category, source. Add website feeds here after checking their terms.
 SOURCES = [
@@ -43,9 +44,25 @@ def clean_text(raw):
 def to_iso(raw):
     """Return an ISO date in Bangkok time, or None when the feed date is unusable."""
     try:
-        return parsedate_to_datetime(raw).astimezone(BANGKOK).isoformat(timespec="minutes")
+        # The forecast feed writes "+07:00", which the parser drops, leaving a naive time.
+        parsed = parsedate_to_datetime(re.sub(r"([+-]\d\d):(\d\d)\s*$", r"\1\2", raw or ""))
     except (TypeError, ValueError):
         return None
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=BANGKOK)
+    return parsed.astimezone(BANGKOK).isoformat(timespec="minutes")
+
+
+def item_time(guid, raw):
+    """Prefer the Bangkok timestamp in a weather alert id; those feeds' pubDate runs 7 hours early."""
+    match = re.search(r"TMD(\d{14})", guid)
+    if match:
+        try:
+            issued = datetime.strptime(match.group(1), "%Y%m%d%H%M%S")
+            return issued.replace(tzinfo=BANGKOK).isoformat(timespec="minutes")
+        except ValueError:
+            pass
+    return to_iso(raw)
 
 
 def parse_feed(data, category, source):
@@ -63,9 +80,15 @@ def parse_feed(data, category, source):
             "summary": clean_text(node.findtext("description"))[:SUMMARY_CHARS],
             "source": source,
             "url": url,
-            "published": to_iso(node.findtext("pubDate")),
+            "published": item_time(guid, node.findtext("pubDate")),
         })
     return items
+
+
+def alert_expired(url, now):
+    """Read the expiry from the alert's own CAP file; the RSS item does not carry it."""
+    match = re.search(rb"<(?:\w+:)?expires>\s*([^<\s]+)", fetch(url))
+    return bool(match) and datetime.fromisoformat(match.group(1).decode()) <= now
 
 
 def collect():
@@ -76,7 +99,17 @@ def collect():
                 items.setdefault(item["id"], item)
         except Exception as error:  # one broken source must not stop the others
             errors.append({"url": url, "error": str(error)})
-    ordered = sorted(items.values(), key=lambda item: item["published"] or "", reverse=True)
+    now = datetime.now(BANGKOK)
+    current = []
+    for item in items.values():
+        try:
+            if item["url"].startswith(ALERT_URL) and alert_expired(item["url"], now):
+                continue
+        except Exception as error:  # expiry unknown: keep the alert and report it
+            errors.append({"url": item["url"], "error": str(error)})
+        current.append(item)
+    ordered = sorted(current, key=lambda item: item["published"] or "", reverse=True)
+    ordered.sort(key=lambda item: not item["url"].startswith(ALERT_URL))  # stable: alerts first, newest first in each group
     return ordered[:MAX_ITEMS], errors
 
 
