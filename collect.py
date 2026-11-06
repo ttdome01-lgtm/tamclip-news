@@ -7,6 +7,7 @@ A source that fails is reported and skipped. No output is written if every sourc
 import html
 import json
 import re
+import ssl
 import sys
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -36,9 +37,18 @@ AIR_PAGE = "http://air4thai.pcd.go.th/webV3/"
 AIR_TOP = 5
 
 
+def tls_context():
+    """Normal certificate checks, plus the intermediate that Air4Thai's server leaves out."""
+    context = ssl.create_default_context()
+    extra = Path(__file__).parent / "air4thai_ca.pem"
+    if extra.exists():
+        context.load_verify_locations(cafile=str(extra))
+    return context
+
+
 def fetch(url):
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(request, timeout=30) as response:
+    with urllib.request.urlopen(request, timeout=30, context=tls_context()) as response:
         return response.read()
 
 
