@@ -136,12 +136,12 @@ def air_item(data):
         raise ValueError("no PM2.5 readings")
     latest = max(reading[0] for reading in readings)
     top = sorted((r for r in readings if r[0] == latest), key=lambda r: r[1], reverse=True)[:AIR_TOP]
-    lines = " ".join(f"{area} {value:g} มคก./ลบ.ม." for _, value, area in top)
+    lines = "; ".join(f"{area} ค่า {value:g}" for _, value, area in top)  # road names can hold numbers too
     return {
         "id": f"ฝุ่น PM2.5:{latest:%Y-%m-%dT%H:%M}",
         "category": "ฝุ่น PM2.5",
         "title": f"ฝุ่น PM2.5 สูงสุด เวลา {latest:%H:%M} น. {top[0][2]}",
-        "summary": f"ค่าฝุ่น PM2.5 จากสถานีตรวจวัด เวลา {latest:%H:%M} น. สูงสุด {len(top)} จุด: {lines}",
+        "summary": f"ค่าฝุ่น PM2.5 จากสถานีตรวจวัด เวลา {latest:%H:%M} น. สูงสุด {len(top)} จุด หน่วยไมโครกรัมต่อลูกบาศก์เมตร: {lines}",
         "source": "กรมควบคุมมลพิษ",
         "url": AIR_PAGE,
         "published": latest.replace(tzinfo=BANGKOK).isoformat(timespec="minutes"),
