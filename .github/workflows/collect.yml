@@ -2,7 +2,7 @@ name: Collect news
 
 on:
   schedule:
-    - cron: "5,35 * * * *"  # the second run fills in when GitHub skips the first
+    - cron: "7,22,37,52 * * * *"  # GitHub often runs late or skips, off-peak minutes help
   workflow_dispatch:
 
 permissions:
@@ -19,8 +19,8 @@ jobs:
           python-version: "3.12"
       - name: Collect
         run: python collect.py data
-      - name: Keep the newest 72 files
-        run: ls -1 data/news-*.json | sort -r | tail -n +73 | xargs -r git rm -q --ignore-unmatch -f
+      - name: Keep the newest 400 files
+        run: ls -1 data/news-*.json | sort -r | tail -n +401 | xargs -r git rm -q --ignore-unmatch -f
       - name: Commit
         run: |
           git config user.name "news-collector"
