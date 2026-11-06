@@ -109,7 +109,6 @@ def collect():
             errors.append({"url": item["url"], "error": str(error)})
         current.append(item)
     ordered = sorted(current, key=lambda item: item["published"] or "", reverse=True)
-    ordered.sort(key=lambda item: not item["url"].startswith(ALERT_URL))  # stable: alerts first, newest first in each group
     return ordered[:MAX_ITEMS], errors
 
 
