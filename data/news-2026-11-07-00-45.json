@@ -1,0 +1,123 @@
+{
+ "updated": "2026-11-07T00:55+07:00",
+ "errors": [],
+ "items": [
+  {
+   "id": "ฝุ่น PM2.5:2026-11-07T00:00",
+   "category": "ฝุ่น PM2.5",
+   "title": "ฝุ่น PM2.5 สูงสุด เวลา 00:00 น. ต.ปากน้ำ อ.เมือง, สมุทรปราการ",
+   "summary": "ค่าฝุ่น PM2.5 จากสถานีตรวจวัด เวลา 00:00 น. สูงสุด 5 จุด หน่วยไมโครกรัมต่อลูกบาศก์เมตร: ต.ปากน้ำ อ.เมือง, สมุทรปราการ ค่า 33.3; ริมถนนพระรามที่ 4 หน้าสามย่านมิตรทาวน์ เขตปทุมวัน, กรุงเทพฯ ค่า 31.2; ริมถนนพระราม 2 เขตบางขุนเทียน, กรุงเทพฯ ค่า 29.5; ริมถนนมาเจริญ เพชรเกษม 81 เขตหนองแขม, กรุงเทพฯ ค่า 28.8; ริมถนนตรีมิตร วงเวียนโอเดียน์ เขตสัมพันธวงศ์, กรุงเทพฯ ค่า 28.2",
+   "source": "กรมควบคุมมลพิษ",
+   "url": "http://air4thai.pcd.go.th/webV3/",
+   "published": "2026-11-07T00:00+07:00"
+  },
+  {
+   "id": "พยากรณ์อากาศ:1",
+   "category": "พยากรณ์อากาศ",
+   "title": "พยากรณ์อากาศ ภาคเหนือ วันที่ 06/11/2026",
+   "summary": "วันที่ 06/11/2026 ตั้งแต่เวลา 22:02 น. วันที่ - 22:02 น. วันพรุ่งนี้ Fairly windspread thundershowers with gust and isolated heavy rain in Mae Hong Son, Chiang Mai, Chiang Rai, Lamphun, Lampang, Phayao, Phrae, Sukhothai, Tak, and Kamphaeng Phet. Minimum temperature 20–24 °C. Maximum temperature 31–34 °C. Southeasterly winds 10–20 km./hr. คาดหมายอุณหภูมิ(° C) เชียงราย สูงสุด 31 ต่ำสุด 21 เชียงใหม่ สูงสุด 33 ต่ำสุด 24 สุโขทัย สูงสุด 32 ต่ำสุด 25 ลำปาง สูงสุด 32 ต่ำสุด 32",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "http://www.tmd.go.th/api/xml/region-daily-forecast?regionid=1",
+   "published": "2026-11-06T22:02+07:00"
+  },
+  {
+   "id": "พยากรณ์อากาศ:2",
+   "category": "พยากรณ์อากาศ",
+   "title": "พยากรณ์อากาศ ภาคตะวันออกเฉียงเหนือ วันที่ 06/11/2026",
+   "summary": "วันที่ 06/11/2026 ตั้งแต่เวลา 22:02 น. วันที่ - 22:02 น. วันพรุ่งนี้ Isolated thundershowers mostly in Loei, Chaiyaphum, Nong Bua Lamphu, Khon Kaen, Nakhon Ratchasima, and Buri Ram. Minimum temperature 22–24 °C. Maximum temperature 33–35 °C. Northeasterly winds 10–20 km./hr. คาดหมายอุณหภูมิ(° C) เลย สูงสุด 33 ต่ำสุด 22 อุบลราชธานี สูงสุด 35 ต่ำสุด 23 นครราชสีมา สูงสุด 34 ต่ำสุด 23 นครพนม สูงสุด 34 ต่ำสุด 23",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "http://www.tmd.go.th/api/xml/region-daily-forecast?regionid=2",
+   "published": "2026-11-06T22:02+07:00"
+  },
+  {
+   "id": "พยากรณ์อากาศ:3",
+   "category": "พยากรณ์อากาศ",
+   "title": "พยากรณ์อากาศ ภาคกลาง วันที่ 06/11/2026",
+   "summary": "วันที่ 06/11/2026 ตั้งแต่เวลา 22:02 น. วันที่ - 22:02 น. วันพรุ่งนี้ Scattered thundershowers with gust and isolated heavy rain in Nakhon Sawan, Uthai Thani, Chai Nat, Suphan Buri, Kanchanaburi, and Ratchaburi. Minimum temperature 21–25 °C. Maximum temperature 32–35 °C. Easterly winds 10–20 km./hr. คาดหมายอุณหภูมิ(° C) กาญจนบุรี สูงสุด 33 ต่ำสุด 23 นครสวรรค์ สูงสุด 32 ต่ำสุด 24 ลพบุรี สูงสุด 33 ต่ำสุด 24 สมุทรสาคร สูงสุด 32 ต่ำสุด 25",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "http://www.tmd.go.th/api/xml/region-daily-forecast?regionid=3",
+   "published": "2026-11-06T22:02+07:00"
+  },
+  {
+   "id": "พยากรณ์อากาศ:4",
+   "category": "พยากรณ์อากาศ",
+   "title": "พยากรณ์อากาศ ภาคตะวันออก วันที่ 06/11/2026",
+   "summary": "วันที่ 06/11/2026 ตั้งแต่เวลา 22:02 น. วันที่ - 22:02 น. วันพรุ่งนี้ Scattered thundershowers with gust mostly in Nakhon Nayok, Chachoengsao, Chon Buri, Rayong, Chanthaburi, and Trat. Minimum temperature 23–25 °C. Maximum temperature 33–36 °C. Easterly winds 10–30 km./hr. Wave below 1 meter and above 2 meters in thundershowers. คาดหมายอุณหภูมิ(° C) ปราจีนบุรี สูงสุด 32 ต่ำสุด 24 ตราด สูงสุด 32 ต่ำสุด 24 จันทบุรี สูงสุด 33 ต่ำสุด 23 พัทยา สูงสุด 33 ต่ำสุด 25",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "http://www.tmd.go.th/api/xml/region-daily-forecast?regionid=4",
+   "published": "2026-11-06T22:02+07:00"
+  },
+  {
+   "id": "พยากรณ์อากาศ:5",
+   "category": "พยากรณ์อากาศ",
+   "title": "พยากรณ์อากาศ ภาคใต้ (ฝั่งตะวันออก) วันที่ 06/11/2026",
+   "summary": "วันที่ 06/11/2026 ตั้งแต่เวลา 22:02 น. วันที่ - 22:02 น. วันพรุ่งนี้ Fairly windspread thundershowers and isolated heavy rain in Phetchaburi, Prachuap Khiri Khan, Chumphon, Surat Thani, Nakhon Si Thammarat, Phatthalung, Songkhla, Pattani, Yala, and Narathiwat. Minimum temperature 22–25 °C. Maximum temperature 31–34 °C. From Surat Thani northward: Easterly winds 15–30 km./hr. Wave height about 1 meter and above 2 meters in thundershowers. From Nakhon Si Thammarat southward: Southeasterly winds 15–30 km./hr. Wave height about 1 meter and above 2 meters in thundershowers. คาดหมายอุณหภูมิ(° C) ชุม",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "http://www.tmd.go.th/api/xml/region-daily-forecast?regionid=5",
+   "published": "2026-11-06T22:02+07:00"
+  },
+  {
+   "id": "พยากรณ์อากาศ:6",
+   "category": "พยากรณ์อากาศ",
+   "title": "พยากรณ์อากาศ ภาคใต้ (ฝั่งตะวันตก) วันที่ 06/11/2026",
+   "summary": "วันที่ 06/11/2026 ตั้งแต่เวลา 22:02 น. วันที่ - 22:02 น. วันพรุ่งนี้ Scattered thundershowers and isolated heavy rain in Trang and Satun. Minimum temperature 23–25 °C. Maximum temperature 33–35 °C. Easterly winds 15–30 km./hr. Wave height about 1 meter, above 1 meter offshore and above 2 meters in thundershowers. คาดหมายอุณหภูมิ(° C) ระนอง สูงสุด 33 ต่ำสุด 24 ภูเก็ต สูงสุด 34 ต่ำสุด 25 พังงา สูงสุด 32 ต่ำสุด 24 สตูล สูงสุด 34 ต่ำสุด 25",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "http://www.tmd.go.th/api/xml/region-daily-forecast?regionid=6",
+   "published": "2026-11-06T22:02+07:00"
+  },
+  {
+   "id": "พยากรณ์อากาศ:7",
+   "category": "พยากรณ์อากาศ",
+   "title": "พยากรณ์อากาศ กรุงเทพมหานครและปริมณฑล วันที่ 06/11/2026",
+   "summary": "วันที่ 06/11/2026 ตั้งแต่เวลา 22:02 น. วันที่ - 22:02 น. วันพรุ่งนี้ Scattered thundershowers with gust. Minimum temperature 24–25 °C. Maximum temperature 34–36 °C. Southeasterly winds 10–20 km./hr. คาดหมายอุณหภูมิ(° C) กรุงเทพมหานคร สูงสุด 34 ต่ำสุด 24 ปทุมธานี สูงสุด 34 ต่ำสุด 25 สมุทรปราการ สูงสุด 33 ต่ำสุด 24",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "http://www.tmd.go.th/api/xml/region-daily-forecast?regionid=7",
+   "published": "2026-11-06T22:02+07:00"
+  },
+  {
+   "id": "เตือนภัยอากาศ:TMD20261106170451_2",
+   "category": "เตือนภัยอากาศ",
+   "title": "ฝนตกหนัก",
+   "summary": "บริเวณประเทศไทยตอนบน ยังคงมีสภาพอากาศแปรปรวน โดยมีลักษณะของฝนฟ้าคะนอง ลมกระโชกแรง ลูกเห็บตก และมีฝนตกหนักบางแห่ง ขอให้ประชาชนระวังอันตรายจากฝนตกหนัก ฝนฟ้าคะนอง และลมกระโชกแรง โดยหลีกเลี่ยง การอยู่ในที่โล่งแจ้ง ใต้ต้นไม้ใหญ่ สิ่งปลูกสร้างและป้ายโฆษณาที่ไม่แข็งแรงไว้ด้วย ทั้งนี้เนื่องจากบริเวณความกดอากาศสูงหรือมวลอากาศเย็นจากประเทศจีนแผ่ปกคลุมประเทศไทยตอนบน และทะเลจีนใต้ ส่งผลให้ลมฝ่ายตะวันออกพัดปกคลุมอ่าวไทย ประเทศไทย และทะเลอันดามัน",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "https://www.tmd.go.th/uploads/CAP/CAPTMD20261106170451_2.xml",
+   "published": "2026-11-06T17:04+07:00"
+  },
+  {
+   "id": "แผ่นดินไหว:https://earthquake.tmd.go.th/inside-info.html?earthquake=17381",
+   "category": "แผ่นดินไหว",
+   "title": "แผ่นดินไหว ต.แม่แฝกใหม่ อ.สันทราย จ.เชียงใหม่ ขนาด 1.8 วันที่ 6 พฤศจิกายน 2569 เวลา 09:47 น. ตามเวลาประเทศไทย",
+   "summary": "2026-11-06 09:47:29 น. Lat. 18.978 , Long. 99.005 ขนาด 1.8",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17381",
+   "published": "2026-11-06T09:47+07:00"
+  },
+  {
+   "id": "แผ่นดินไหว:https://earthquake.tmd.go.th/inside-info.html?earthquake=17380",
+   "category": "แผ่นดินไหว",
+   "title": "แผ่นดินไหว ประเทศเมียนมา ขนาด 3.0 วันที่ 6 พฤศจิกายน 2569 เวลา 08:14 น. ตามเวลาประเทศไทย",
+   "summary": "2026-11-06 08:14:51 น. Lat. 17.489 , Long. 96.243 ขนาด 3.0",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17380",
+   "published": "2026-11-06T08:14+07:00"
+  },
+  {
+   "id": "แผ่นดินไหว:https://earthquake.tmd.go.th/inside-info.html?earthquake=17379",
+   "category": "แผ่นดินไหว",
+   "title": "แผ่นดินไหว ตอนเหนือของหมู่เกาะสุมาตรา ประเทศอินโดนีเซีย ขนาด 3.7 วันที่ 6 พฤศจิกายน 2569 เวลา 05:25 น. ตามเวลาประเทศไทย",
+   "summary": "2026-11-06 05:25:01 น. Lat. 4.184 , Long. 97.618 ขนาด 3.7",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17379",
+   "published": "2026-11-06T05:25+07:00"
+  },
+  {
+   "id": "แผ่นดินไหว:https://earthquake.tmd.go.th/inside-info.html?earthquake=17375",
+   "category": "แผ่นดินไหว",
+   "title": "แผ่นดินไหว มณฑลยูนนาน, ประเทศจีน ขนาด 3.7 วันที่ 5 พฤศจิกายน 2569 เวลา 16:59 น. ตามเวลาประเทศไทย",
+   "summary": "2026-11-05 16:59:32 น. Lat. 22.174 , Long. 100.960 ขนาด 3.7",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17375",
+   "published": "2026-11-05T16:59+07:00"
+  }
+ ]
+}
