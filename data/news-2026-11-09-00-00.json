@@ -1,0 +1,178 @@
+{
+ "updated": "2026-11-09T00:03+07:00",
+ "errors": [],
+ "items": [
+  {
+   "id": "ฝุ่น PM2.5:2026-11-09T00:00",
+   "category": "ฝุ่น PM2.5",
+   "title": "ฝุ่น PM2.5 สูงสุด เวลา 00:00 น. ริมถนนตรีมิตร วงเวียนโอเดียน์ เขตสัมพันธวงศ์, กรุงเทพฯ",
+   "summary": "ค่าฝุ่น PM2.5 จากสถานีตรวจวัด เวลา 00:00 น. สูงสุด 5 จุด หน่วยไมโครกรัมต่อลูกบาศก์เมตร: ริมถนนตรีมิตร วงเวียนโอเดียน์ เขตสัมพันธวงศ์, กรุงเทพฯ ค่า 22.4; ริมถนนพระรามที่ 4 หน้าสามย่านมิตรทาวน์ เขตปทุมวัน, กรุงเทพฯ ค่า 21.9; ริมถนนกรุงเกษม เขตป้อมปราบศัตรูพ่าย, กรุงเทพฯ ค่า 20.3; ริมถนนลาดกระบัง เขตลาดกระบัง, กรุงเทพฯ ค่า 18.8; แขวงทุ่งวัดดอน เขตสาทร, กรุงเทพฯ ค่า 18.4",
+   "source": "กรมควบคุมมลพิษ",
+   "url": "http://air4thai.pcd.go.th/webV3/",
+   "published": "2026-11-09T00:00+07:00"
+  },
+  {
+   "id": "พยากรณ์อากาศ:1",
+   "category": "พยากรณ์อากาศ",
+   "title": "พยากรณ์อากาศ ภาคเหนือ วันที่ 08/11/2026",
+   "summary": "วันที่ 08/11/2026 ตั้งแต่เวลา 22:08 น. วันที่ - 22:08 น. วันพรุ่งนี้ Isolated thundershowers mostly in Mae Hong Son, Chiang Mai, Chiang Rai, Tak, and Kamphaeng Phet. Minimum temperature 20-24 °C. Maximum temperature 28-34 °C. Easterly winds 10–20 km./hr. คาดหมายอุณหภูมิ(° C) เชียงราย สูงสุด 30 ต่ำสุด 20 เชียงใหม่ สูงสุด 34 ต่ำสุด 22 สุโขทัย สูงสุด 34 ต่ำสุด 23 ลำปาง สูงสุด 30 ต่ำสุด 22",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "http://www.tmd.go.th/api/xml/region-daily-forecast?regionid=1",
+   "published": "2026-11-08T22:08+07:00"
+  },
+  {
+   "id": "พยากรณ์อากาศ:2",
+   "category": "พยากรณ์อากาศ",
+   "title": "พยากรณ์อากาศ ภาคตะวันออกเฉียงเหนือ วันที่ 08/11/2026",
+   "summary": "วันที่ 08/11/2026 ตั้งแต่เวลา 22:08 น. วันที่ - 22:08 น. วันพรุ่งนี้ Cool and 1 – 2 °C drop in temperature with windy. Isolated light rain. Minimum temperature 20-23 °C. Maximum temperature 31-34 °C. Northeasterly winds 10–30 km./hr. คาดหมายอุณหภูมิ(° C) เลย สูงสุด 33 ต่ำสุด 22 อุบลราชธานี สูงสุด 35 ต่ำสุด 23 นครราชสีมา สูงสุด 35 ต่ำสุด 22 นครพนม สูงสุด 34 ต่ำสุด 21",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "http://www.tmd.go.th/api/xml/region-daily-forecast?regionid=2",
+   "published": "2026-11-08T22:08+07:00"
+  },
+  {
+   "id": "พยากรณ์อากาศ:3",
+   "category": "พยากรณ์อากาศ",
+   "title": "พยากรณ์อากาศ ภาคกลาง วันที่ 08/11/2026",
+   "summary": "วันที่ 08/11/2026 ตั้งแต่เวลา 22:08 น. วันที่ - 22:08 น. วันพรุ่งนี้ Scattered thundershowers mostly in Nakhon Sawan, Uthai Thani, Kanchanaburi, Ratchaburi, Nakhon Pathom, Samut Sakhon, and Samut Songkhram. Minimum temperature 21-24 °C. Maximum temperature 32-34 °C. Easterly winds 10–20 km./hr. คาดหมายอุณหภูมิ(° C) กาญจนบุรี สูงสุด 33 ต่ำสุด 24 นครสวรรค์ สูงสุด 33 ต่ำสุด 25 ลพบุรี สูงสุด 34 ต่ำสุด 25 สมุทรสาคร สูงสุด 33 ต่ำสุด 26",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "http://www.tmd.go.th/api/xml/region-daily-forecast?regionid=3",
+   "published": "2026-11-08T22:08+07:00"
+  },
+  {
+   "id": "พยากรณ์อากาศ:4",
+   "category": "พยากรณ์อากาศ",
+   "title": "พยากรณ์อากาศ ภาคตะวันออก วันที่ 08/11/2026",
+   "summary": "วันที่ 08/11/2026 ตั้งแต่เวลา 22:08 น. วันที่ - 22:08 น. วันพรุ่งนี้ Isolated thundershowers mostly in Chachoengsao, Chonburi, Rayong, Chanthaburi, and Trat. Minimum temperature 22-25 °C. Maximum temperature 32-34 °C. Northeasterly winds 15-30 km./hr. Wave below 1 meter, about 1 meter offshore and above 2 meters in thundershowers. คาดหมายอุณหภูมิ(° C) ปราจีนบุรี สูงสุด 35 ต่ำสุด 24 ตราด สูงสุด 32 ต่ำสุด 24 จันทบุรี สูงสุด 33 ต่ำสุด 26 พัทยา สูงสุด 32 ต่ำสุด 27",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "http://www.tmd.go.th/api/xml/region-daily-forecast?regionid=4",
+   "published": "2026-11-08T22:08+07:00"
+  },
+  {
+   "id": "พยากรณ์อากาศ:5",
+   "category": "พยากรณ์อากาศ",
+   "title": "พยากรณ์อากาศ ภาคใต้ (ฝั่งตะวันออก) วันที่ 08/11/2026",
+   "summary": "วันที่ 08/11/2026 ตั้งแต่เวลา 22:08 น. วันที่ - 22:08 น. วันพรุ่งนี้ Fairly windspread thundershowers and isolated heavy rain in Prachuap Khiri Khan, Chumphon, Surat Thani, Yala, and Narathiwat. Isolated very heavy rain in Nakhon Si Thammarat, Phatthalung, Songkhla, and Pattani. Minimum temperature 22–25 °C. Maximum temperature 28–33 °C. From Chumphon northward: Easterly winds 15–35 km./hr. Wave height 1-2 meters and above 2 meters in thundershowers. From Surat Thani southward: Southeasterly winds 20–35 km./hr. Wave height about 2 meters and above 2 meters in thundershowers. คาดหมายอุณหภูมิ(° ",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "http://www.tmd.go.th/api/xml/region-daily-forecast?regionid=5",
+   "published": "2026-11-08T22:08+07:00"
+  },
+  {
+   "id": "พยากรณ์อากาศ:6",
+   "category": "พยากรณ์อากาศ",
+   "title": "พยากรณ์อากาศ ภาคใต้ (ฝั่งตะวันตก) วันที่ 08/11/2026",
+   "summary": "วันที่ 08/11/2026 ตั้งแต่เวลา 22:08 น. วันที่ - 22:08 น. วันพรุ่งนี้ Fairly widespread thundershowers and isolated heavy rain in Krabi, Trang and Satun. Minimum temperature 23–25 °C. Maximum temperature 29-33 °C. Easterly winds 15–30 km./hr. Wave height about 1 meter, above 1 meter offshore and above 2 meters in thundershowers. คาดหมายอุณหภูมิ(° C) ระนอง สูงสุด 31 ต่ำสุด 24 ภูเก็ต สูงสุด 34 ต่ำสุด 26 พังงา สูงสุด 31 ต่ำสุด 24 สตูล สูงสุด 34 ต่ำสุด 24",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "http://www.tmd.go.th/api/xml/region-daily-forecast?regionid=6",
+   "published": "2026-11-08T22:08+07:00"
+  },
+  {
+   "id": "พยากรณ์อากาศ:7",
+   "category": "พยากรณ์อากาศ",
+   "title": "พยากรณ์อากาศ กรุงเทพมหานครและปริมณฑล วันที่ 08/11/2026",
+   "summary": "วันที่ 08/11/2026 ตั้งแต่เวลา 22:08 น. วันที่ - 22:08 น. วันพรุ่งนี้ Scattered thundershowers. Minimum temperature 24-26 °C. Maximum temperature 32-34 °C. Northeasterly winds 10–20 km./hr. คาดหมายอุณหภูมิ(° C) กรุงเทพมหานคร สูงสุด 35 ต่ำสุด 26 ปทุมธานี สูงสุด 34 ต่ำสุด 24 สมุทรปราการ สูงสุด 36 ต่ำสุด 27",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "http://www.tmd.go.th/api/xml/region-daily-forecast?regionid=7",
+   "published": "2026-11-08T22:08+07:00"
+  },
+  {
+   "id": "แผ่นดินไหว:https://earthquake.tmd.go.th/inside-info.html?earthquake=17395",
+   "category": "แผ่นดินไหว",
+   "title": "แผ่นดินไหว ประเทศเมียนมา ขนาด 3.2 วันที่ 8 พฤศจิกายน 2569 เวลา 19:17 น. ตามเวลาประเทศไทย",
+   "summary": "2026-11-08 19:17:51 น. Lat. 22.063 , Long. 96.354 ขนาด 3.2",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17395",
+   "published": "2026-11-08T19:17+07:00"
+  },
+  {
+   "id": "แผ่นดินไหว:https://earthquake.tmd.go.th/inside-info.html?earthquake=17394",
+   "category": "แผ่นดินไหว",
+   "title": "แผ่นดินไหว ประเทศเมียนมา ขนาด 3.2 วันที่ 8 พฤศจิกายน 2569 เวลา 15:36 น. ตามเวลาประเทศไทย",
+   "summary": "2026-11-08 15:36:35 น. Lat. 18.824 , Long. 96.436 ขนาด 3.2",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17394",
+   "published": "2026-11-08T15:36+07:00"
+  },
+  {
+   "id": "แผ่นดินไหว:https://earthquake.tmd.go.th/inside-info.html?earthquake=17393",
+   "category": "แผ่นดินไหว",
+   "title": "แผ่นดินไหว ประเทศเมียนมา ขนาด 4.2 วันที่ 8 พฤศจิกายน 2569 เวลา 13:54 น. ตามเวลาประเทศไทย",
+   "summary": "2026-11-08 13:54:47 น. Lat. 18.924 , Long. 96.288 ขนาด 4.2",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17393",
+   "published": "2026-11-08T13:54+07:00"
+  },
+  {
+   "id": "แผ่นดินไหว:https://earthquake.tmd.go.th/inside-info.html?earthquake=17392",
+   "category": "แผ่นดินไหว",
+   "title": "แผ่นดินไหว หมู่เกาะอันดามัน ประเทศอินเดีย ขนาด 3.6 วันที่ 8 พฤศจิกายน 2569 เวลา 12:40 น. ตามเวลาประเทศไทย",
+   "summary": "2026-11-08 12:40:59 น. Lat. 13.789 , Long. 95.753 ขนาด 3.6",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17392",
+   "published": "2026-11-08T12:40+07:00"
+  },
+  {
+   "id": "ราคาทอง:2026-11-08T09:00:00:1",
+   "category": "ราคาทอง",
+   "title": "ราคาทองวันนี้ทรงตัว ทองแท่งขายออกบาทละ 64,800 บาท",
+   "summary": "สมาคมค้าทองคำประกาศราคาทอง วันที่ 8/11/2569 เวลา 09:00 น. ครั้งที่ 1 ของวัน เทียบกับราคาปิดเมื่อวานทรงตัว. ทองคำแท่ง 96.5% รับซื้อบาทละ 64,600 บาท ขายออกบาทละ 64,800 บาท. ทองรูปพรรณ 96.5% รับซื้อบาทละ 63,308.16 บาท ขายออกบาทละ 65,600 บาท. ราคาทองโลก 4073.0 ดอลลาร์ต่อออนซ์ ค่าเงิน 33.6 บาทต่อดอลลาร์",
+   "source": "สมาคมค้าทองคำ",
+   "url": "https://www.goldtraders.or.th/",
+   "published": "2026-11-08T09:00+07:00"
+  },
+  {
+   "id": "แผ่นดินไหว:https://earthquake.tmd.go.th/inside-info.html?earthquake=17389",
+   "category": "แผ่นดินไหว",
+   "title": "แผ่นดินไหว ตอนเหนือของหมู่เกาะสุมาตรา ประเทศอินโดนีเซีย ขนาด 4.1 วันที่ 7 พฤศจิกายน 2569 เวลา 13:54 น. ตามเวลาประเทศไทย",
+   "summary": "2026-11-07 13:54:07 น. Lat. 5.848 , Long. 94.605 ขนาด 4.1",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17389",
+   "published": "2026-11-07T13:54+07:00"
+  },
+  {
+   "id": "แผ่นดินไหว:https://earthquake.tmd.go.th/inside-info.html?earthquake=17388",
+   "category": "แผ่นดินไหว",
+   "title": "แผ่นดินไหว ประเทศเมียนมา ขนาด 3.1 วันที่ 7 พฤศจิกายน 2569 เวลา 13:02 น. ตามเวลาประเทศไทย",
+   "summary": "2026-11-07 13:02:26 น. Lat. 21.219 , Long. 96.120 ขนาด 3.1",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17388",
+   "published": "2026-11-07T13:02+07:00"
+  },
+  {
+   "id": "แผ่นดินไหว:https://earthquake.tmd.go.th/inside-info.html?earthquake=17387",
+   "category": "แผ่นดินไหว",
+   "title": "แผ่นดินไหว ตอนเหนือของหมู่เกาะสุมาตรา ประเทศอินโดนีเซีย ขนาด 3.9 วันที่ 7 พฤศจิกายน 2569 เวลา 08:59 น. ตามเวลาประเทศไทย",
+   "summary": "2026-11-07 08:59:41 น. Lat. 4.093 , Long. 97.080 ขนาด 3.9",
+   "source": "กรมอุตุนิยมวิทยา",
+   "url": "https://earthquake.tmd.go.th/inside-info.html?earthquake=17387",
+   "published": "2026-11-07T08:59+07:00"
+  },
+  {
+   "id": "ราคาอาหารสด:2026-11-06",
+   "category": "ราคาอาหารสด",
+   "title": "ต้นหอมราคาขึ้น 40 บาทต่อกิโลกรัม ในหนึ่งสัปดาห์",
+   "summary": "ราคาขายปลีกจากกรมการค้าภายใน วันที่ 6/11/2569: ไข่ไก่ เบอร์ 2 4.50-4.70 บาทต่อฟอง; หมูเนื้อแดง สะโพก 150-160 บาทต่อกิโลกรัม; หมูสามชั้น 175-195 บาทต่อกิโลกรัม; ไก่สดทั้งตัว 75-80 บาทต่อตัว; กะหล่ำปลี 30-35 บาทต่อกิโลกรัม; ผักบุ้งจีน 25-30 บาทต่อกิโลกรัม; มะนาว เบอร์ 1-2 4-5 บาทต่อผล; พริกขี้หนูจินดา 60-80 บาทต่อกิโลกรัม; ผักชี 130-150 บาทต่อกิโลกรัม; ต้นหอม 180-200 บาทต่อกิโลกรัม. เทียบกับสัปดาห์ก่อน: ต้นหอม ขึ้น 40 บาทต่อกิโลกรัม; ผักชี ลง 10 บาทต่อกิโลกรัม",
+   "source": "กรมการค้าภายใน",
+   "url": "https://pricelist.dit.go.th/",
+   "published": "2026-11-06T18:00+07:00",
+   "checked": "2026-11-08T21:03+07:00"
+  },
+  {
+   "id": "ราคาน้ำมัน:2026-11-05T20:15:5",
+   "category": "ราคาน้ำมัน",
+   "title": "น้ำมันลดราคา ดีเซลลด 75 สตางค์ แก๊สโซฮอล์ลด 1 บาท",
+   "summary": "บางจากประกาศปรับราคาน้ำมันขายปลีก ราคามีผล ณ วันที่ 6 พ.ย. 69 เวลา 05.00 น.: ไฮดีเซล S จาก 42.54 เป็น 41.79 บาท (ลด 75 สตางค์); แก๊สโซฮอล์ E85 S EVO จาก 31.63 เป็น 30.63 บาท (ลด 1 บาท); แก๊สโซฮอล์ E20 S EVO จาก 32.80 เป็น 31.80 บาท (ลด 1 บาท); แก๊สโซฮอล์ 91 S EVO จาก 40.47 เป็น 39.47 บาท (ลด 1 บาท); แก๊สโซฮอล์ 95 S EVO จาก 40.84 เป็น 39.84 บาท (ลด 1 บาท). หมายเหตุ: ราคาขายปลีก กทม. ที่ยังไม่รวมภาษีบำรุงท้องถิ่น กทม.",
+   "source": "บางจาก",
+   "url": "https://www.bangchak.co.th/th/oilprice",
+   "published": "2026-11-05T20:15+07:00"
+  },
+  {
+   "id": "ผลสลากกินแบ่ง:2026-11-01",
+   "category": "ผลสลากกินแบ่ง",
+   "title": "ผลสลากกินแบ่งรัฐบาล งวด 1/11/2569 รางวัลที่ 1 423224",
+   "summary": "ผลสลากกินแบ่งรัฐบาล งวดวันที่ 1/11/2569: รางวัลที่ 1 423224; เลขหน้า 3 ตัว 300 950; เลขท้าย 3 ตัว 393 804; เลขท้าย 2 ตัว 85; รางวัลข้างเคียงรางวัลที่ 1 423223 423225. โปรดตรวจสอบกับสำนักงานสลากกินแบ่งรัฐบาลอีกครั้ง",
+   "source": "สำนักงานสลากกินแบ่งรัฐบาล",
+   "url": "https://www.glo.or.th/",
+   "published": "2026-11-01T16:00+07:00"
+  }
+ ]
+}
